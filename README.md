@@ -1,4 +1,4 @@
 website-dillers-flooring
 ========================
 
-A web site for Diller's Flooring in Bluffton, Ohio
+Both text and images are ©2012 Diller's Flooring, Bluffton, Ohio
