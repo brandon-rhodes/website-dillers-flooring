@@ -1,1 +1,5 @@
 php_flag engine off
+
+RewriteCond %{HTTP_HOST}   !^www\.dillersflooring\.com [NC]
+RewriteCond %{HTTP_HOST}   !^$
+RewriteRule ^/(.*)         http://www.dillersflooring.com/$1 [L,R]
