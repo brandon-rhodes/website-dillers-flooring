@@ -509,6 +509,9 @@ table {
 
 * { box-sizing: border-box }
 
+body {
+    text-align: center;
+}
 div.header {
     margin-left: auto;
     margin-right: auto;
@@ -537,4 +540,17 @@ ul.info b {
 ul.info em {
     color: #000;
     font-style: normal;
+}
+div.products {
+    display: inline-block;
+    margin: 0em 2em;
+    vertical-align: top;
+    text-shadow: 0.25em 0.25em 0.5em #bb8;
+}
+div.products ul {
+    padding-left: 0px;
+}
+div.products li {
+    list-style: square;
+    text-align: left;
 }
