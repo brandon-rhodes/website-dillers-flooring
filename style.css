@@ -554,3 +554,17 @@ div.products li {
     list-style: square;
     text-align: left;
 }
+div.gallery {
+    max-width: 600px;
+    margin: 1.2em auto 3em auto;
+}
+div.gallery img {
+    display: inline-block;
+    margin: 1em;
+    box-shadow: 0.25em 0.25em 0.5em #bb8;
+    border: 1px solid black;
+}
+div.footer {
+    color: #888;
+    margin-bottom: 1em;
+}
