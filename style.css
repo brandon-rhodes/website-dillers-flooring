@@ -513,17 +513,20 @@ body {
     text-align: center;
 }
 div.header {
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 480px;
+    background-color: #a8dba8;
+    width: 100%;
 }
 div.header img {
-    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 90%;
+    width: 420px;
 }
 ul.info {
-    border-top: 1px solid #ccc;
-    border-bottom: 1px solid #ccc;
-    background-color: #f8f8f8;
+    margin: 0px;
+    border-top: 2px solid #556655;
+    border-bottom: 2px solid #556655;
+    background-color: #cfedcf;
     padding: 8px;
     color: #aaa;
     text-align: center;
