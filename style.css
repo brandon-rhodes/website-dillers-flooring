@@ -556,14 +556,9 @@ div.products li {
     list-style: square;
     text-align: left;
 }
-#gallery {
-    height: 400px;
-    width: 600px;
-    max-width: 100%;
+div.gallery {
+    max-width: 600px;
     margin: 1.2em auto 3em auto;
-}
-#gallery .galleria-container {
-    background-color: #fff;
 }
 div.gallery img {
     display: inline-block;
