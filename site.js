@@ -2,10 +2,12 @@
 $(document).ready(function() {
     var div = $('div.gallery');
     var api_key = '7b9d45813dfdd762787e9b65978c858b';
-    var per_page = 999;
+    var per_page = 99;
+    var user_id = '78235690@N06'; // Diller's
+    var user_id = '67733812@N00'; // Someone with more photos, for testing
     var url = 'http://api.flickr.com/services/rest/' +
         '?format=json&jsoncallback=?&api_key=' + api_key +
-        '&method=flickr.people.getPublicPhotos&user_id=78235690@N06' +
+        '&method=flickr.people.getPublicPhotos&user_id=' + user_id +
         '&per_page=' + per_page;
 
     $.getJSON(url, function(data) {
