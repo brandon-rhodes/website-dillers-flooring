@@ -16,8 +16,11 @@ $(document).ready(function() {
             var thumb = 'http://farm' + photo['farm'] +
                 '.static.flickr.com/' + photo['server'] + '/' + photo['id'] +
                 '_' + photo['secret'] + '_' + 'q.jpg';
-            div.append('<img src="' + thumb + '" alt=" ' + photo['title'] +
-                       '">');
+            div.append($('<img>').attr({
+                src: thumb,
+                alt: photo['title'],
+                title: photo['title']
+            }));
         }
     });
 });
